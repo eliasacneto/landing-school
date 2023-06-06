@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1a827209e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>DNC - LandingPage</title>
+  </head>
+  <body>
+    <main>
+      <section class="banner">
+        <div>
+          <img class="logo" src="./assets/images/logo.png" alt="Logo DNC" />
+        </div>
+        <div class="banner-text">
+          <h1>Dê os primeiros passos da sua carreira em Tecnologia</h1>
+          <p>
+            Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC
+            School e aprenda os principais fundamentos para construir
+            experiências efetivas.
+          </p>
+        </div>
+      </section>
+      <div class="info">
+        <ul>
+          <li>
+            <i class="fa-solid fa-certificate fa-xl" style="color: #247ba0"></i>
+            Certificado de conclusão
+          </li>
+          <li>
+            <i class="fa-regular fa-clock fa-xl" style="color: #247ba0"></i> 4
+            horas de conteúdo
+          </li>
+          <li>
+            <i class="fa-solid fa-video fa-xl" style="color: #247ba0"></i> Aulas
+            online gravadas
+          </li>
+        </ul>
+      </div>
+      <section class="learn-section">
+        <!-- <img src="./assets/images/video-preview.png" alt="video-preview"/> -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ITxGkd9h4n4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div class="learn">
+          <h1 class="learn-text">
+            Aprenda com especialistas e comece seu primeiro projeto
+          </h1>
+          <p>
+            Conheça o processo de desenvolvimento e entenda como utilizar os
+            principais métodos e ferramentas da área para resolver problemas
+            complexos.
+          </p>
+          <p>
+            Conquiste seu certificado e desenvolva um projeto prático para
+            aplicar seus conhecimentos.
+          </p>
+        </div>
+      </section>
+      <section class="testimony">
+        <h2 class="testimony-title">
+          Mais de 500 alunos já iniciaram seus estudos
+        </h2>
+        <div class="carousel">
+          <i class="fa-solid fa-chevron-left fa-2xl chevron" style="color: #ffffff;"></i>
+          <ul class="carousel-list">
+            <li class="carousel-item">
+              <img
+                class="testimony-img"
+                src="./assets/images/bruna.png"
+                alt="Leonardo"
+              />
+              <div>
+                <p class="testimony-text">
+                  “O curso da DNC School foi o ponto de partida da minha
+                  transição de carreira. Hoje já consegui minha primeira vaga na
+                  área!”
+                </p>
+                <p class="testimony-person">Bruna, desenvolvedora Front-End</p>
+              </div>
+            </li>
+            <li class="carousel-item">
+              <img
+                class="testimony-img"
+                src="./assets/images/leo.png"
+                alt="Leonardo"
+              />
+              <div>
+                <p class="testimony-text">
+                  “Gostei muito da metodologia e da plataforma da Escola DNC. Os
+                  materiais são todos muito bons”
+                </p>
+                <p class="testimony-person">Leonardo, desenvolvedor Back-End</p>
+              </div>
+            </li>
+            <li class="carousel-item">
+              <img
+                class="testimony-img"
+                src="./assets/images/samantha.png"
+                alt="Leonardo"
+              />
+              <div>
+                <p class="testimony-text">
+                  “O curso da foi a mudança que eu precisava para alcançar meus
+                  objetivos profissionais”
+                </p>
+                <p class="testimony-person">
+                  Samantha, desenvolvedora Front-End
+                </p>
+              </div>
+            </li>
+          </ul>
+          <i class="fa-solid fa-chevron-right fa-2xl chevron" style="color: #ffffff;"></i>
+        </div>
+      </section>
+      <section class="contact">
+        <h3>Comece agora mesmo e dê o próximo passo da sua carreira</h3>
+        <div class="contact-form">
+          <form>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nome"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Telefone"
+              required
+            />
+            <button class="send" type="submit" name="submit" id="submit">
+              Acesse a ementa grátis
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
